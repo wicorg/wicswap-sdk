@@ -1,7 +1,7 @@
 {
   "name": "@wicswap/localization",
   "license": "MIT",
-  "version": "11.1.2",
+  "version": "13.0.0",
   "description": "A minimal internationalization library",
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",

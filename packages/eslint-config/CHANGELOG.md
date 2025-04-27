@@ -1,5 +1,17 @@
 # Change Log
 
+## 13.0.0
+
+### Major Changes
+
+- Bump v1.0.0 version
+
+## 12.0.0
+
+### Major Changes
+
+- 0155cb3: Bump v1.0.0 version
+
 ## 11.1.2
 
 ### Patch Changes

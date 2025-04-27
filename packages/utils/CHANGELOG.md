@@ -1,5 +1,29 @@
 # @pancakeswap/utils
 
+## 14.0.0
+
+### Major Changes
+
+- Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies
+  - @wicswap/localization@13.0.0
+  - @wicswap/chains@13.0.0
+
+## 13.0.0
+
+### Major Changes
+
+- 0155cb3: Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies [0155cb3]
+  - @wicswap/chains@12.0.0
+  - @wicswap/localization@12.0.0
+
 ## 12.0.2
 
 ### Patch Changes

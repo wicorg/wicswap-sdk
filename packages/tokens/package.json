@@ -1,7 +1,7 @@
 {
   "name": "@wicswap/tokens",
   "license": "MIT",
-  "version": "11.1.2",
+  "version": "13.0.0",
   "publishConfig": {
     "access": "public"
   },

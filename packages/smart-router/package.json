@@ -1,13 +1,13 @@
 {
   "name": "@wicswap/smart-router",
-  "version": "11.1.2",
+  "version": "13.0.0",
   "publishConfig": {
     "access": "public"
   },
   "description": "A SDK for getting best routes from AMM",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MonchainDev/wicswap-sdk.git",
+    "url": "https://github.com/wicorg/wicswap-sdk.git",
     "directory": "packages/smart-router"
   },
   "main": "dist/evm.js",

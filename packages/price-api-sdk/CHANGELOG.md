@@ -1,5 +1,35 @@
 # @pancakeswap/price-api-sdk
 
+## 14.0.0
+
+### Major Changes
+
+- Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies
+  - @wicswap/swap-sdk-core@13.0.0
+  - @wicswap/smart-router@13.0.0
+  - @wicswap/permit2-sdk@13.0.0
+  - @wicswap/pcsx-sdk@13.0.0
+  - @wicswap/chains@13.0.0
+
+## 13.0.0
+
+### Major Changes
+
+- 0155cb3: Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies [0155cb3]
+  - @wicswap/chains@12.0.0
+  - @wicswap/pcsx-sdk@12.0.0
+  - @wicswap/permit2-sdk@12.0.0
+  - @wicswap/smart-router@12.0.0
+  - @wicswap/swap-sdk-core@12.0.0
+
 ## 12.0.2
 
 ### Patch Changes

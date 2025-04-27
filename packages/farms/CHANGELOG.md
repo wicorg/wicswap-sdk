@@ -1,5 +1,43 @@
 # @pancakeswap/farms
 
+## 13.0.0
+
+### Major Changes
+
+- Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies
+  - @wicswap/stable-swap-sdk@13.0.0
+  - @wicswap/price-api-sdk@14.0.0
+  - @wicswap/swap-sdk-core@13.0.0
+  - @wicswap/token-lists@13.0.0
+  - @wicswap/sdk@13.0.0
+  - @wicswap/chains@13.0.0
+  - @wicswap/tokens@13.0.0
+  - @wicswap/v3-sdk@13.0.0
+  - @wicswap/utils@14.0.0
+
+## 12.0.0
+
+### Major Changes
+
+- 0155cb3: Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies [0155cb3]
+  - @wicswap/chains@12.0.0
+  - @wicswap/price-api-sdk@13.0.0
+  - @wicswap/stable-swap-sdk@12.0.0
+  - @wicswap/sdk@12.0.0
+  - @wicswap/swap-sdk-core@12.0.0
+  - @wicswap/token-lists@12.0.0
+  - @wicswap/tokens@12.0.0
+  - @wicswap/utils@13.0.0
+  - @wicswap/v3-sdk@12.0.0
+
 ## 11.1.2
 
 ### Patch Changes

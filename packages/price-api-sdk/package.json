@@ -1,13 +1,13 @@
 {
   "name": "@wicswap/price-api-sdk",
-  "version": "12.0.2",
+  "version": "14.0.0",
   "publishConfig": {
     "access": "public"
   },
   "description": "SDK for pancakeswap price api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MonchainDev/wicswap-sdk.git",
+    "url": "https://github.com/wicorg/wicswap-sdk.git",
     "directory": "packages/price-api-sdk"
   },
   "type": "module",

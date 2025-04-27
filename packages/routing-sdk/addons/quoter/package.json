@@ -4,7 +4,7 @@
   "description": "Routing sdk addon for on chain quoter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MonchainDev/wicswap-sdk.git",
+    "url": "https://github.com/wicorg/wicswap-sdk.git",
     "directory": "packages/routing-sdk/addons/quoter"
   },
   "main": "dist/index.js",

@@ -1,10 +1,10 @@
 {
   "name": "@wicswap/routing-sdk",
-  "version": "11.1.2",
+  "version": "13.0.0",
   "description": "An SDK for AMM routing",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MonchainDev/wicswap-sdk.git",
+    "url": "https://github.com/wicorg/wicswap-sdk.git",
     "directory": "packages/routing-sdk"
   },
   "main": "dist/index.js",

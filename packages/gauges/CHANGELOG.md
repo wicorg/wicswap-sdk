@@ -1,5 +1,33 @@
 # @pancakeswap/gauges
 
+## 14.0.0
+
+### Major Changes
+
+- Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies
+  - @wicswap/chains@13.0.0
+  - @wicswap/tokens@13.0.0
+  - @wicswap/v3-sdk@13.0.0
+  - @wicswap/utils@14.0.0
+
+## 13.0.0
+
+### Major Changes
+
+- 0155cb3: Bump v1.0.0 version
+
+### Patch Changes
+
+- Updated dependencies [0155cb3]
+  - @wicswap/chains@12.0.0
+  - @wicswap/tokens@12.0.0
+  - @wicswap/utils@13.0.0
+  - @wicswap/v3-sdk@12.0.0
+
 ## 12.0.2
 
 ### Patch Changes

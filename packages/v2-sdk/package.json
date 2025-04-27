@@ -1,13 +1,13 @@
 {
   "name": "@wicswap/v2-sdk",
-  "version": "11.1.2",
+  "version": "13.0.0",
   "publishConfig": {
     "access": "public"
   },
   "description": "An SDK for Monswap V2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MonchainDev/wicswap-sdk.git",
+    "url": "https://github.com/wicorg/wicswap-sdk.git",
     "directory": "packages/v2-sdk"
   },
   "main": "dist/index.js",
