@@ -1,0 +1,68 @@
+{
+  "name": "@wicswap/price-api-sdk",
+  "version": "12.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "SDK for pancakeswap price api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MonchainDev/wicswap-sdk.git",
+    "directory": "packages/price-api-sdk"
+  },
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest --run",
+    "update:snapshot": "vitest -u",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@wicswap/permit2-sdk": "workspace:*",
+    "@wicswap/smart-router": "workspace:*",
+    "@wicswap/swap-sdk-core": "workspace:*",
+    "@wicswap/pcsx-sdk": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@wicswap/permit2-sdk": {
+      "optional": true
+    },
+    "@wicswap/swap-sdk-core": {
+      "optional": true
+    },
+    "@wicswap/smart-router": {
+      "optional": true
+    },
+    "@wicswap/pcsx-sdk": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@wicswap/chains": "workspace:*"
+  },
+  "devDependencies": {
+    "@wicswap/permit2-sdk": "workspace:*",
+    "@wicswap/sdk": "workspace:*",
+    "@wicswap/smart-router": "workspace:*",
+    "@wicswap/swap-sdk-core": "workspace:*",
+    "@wicswap/pcsx-sdk": "workspace:*",
+    "@wicswap/tsconfig": "workspace:*",
+    "tsup": "^6.7.0"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  }
+}

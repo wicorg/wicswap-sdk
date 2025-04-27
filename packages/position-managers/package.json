@@ -1,0 +1,27 @@
+{
+  "name": "@wicswap/position-managers",
+  "version": "11.1.2",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "type": "module",
+  "dependencies": {
+    "@wicswap/chains": "workspace:*",
+    "@wicswap/sdk": "workspace:*",
+    "@wicswap/token-lists": "workspace:*",
+    "@wicswap/tokens": "workspace:*",
+    "@wicswap/v3-sdk": "workspace:*",
+    "bignumber.js": "^9.0.0",
+    "lodash": "^4.17.21",
+    "viem": "^2.22.23"
+  },
+  "devDependencies": {
+    "@wicswap/tsconfig": "workspace:*",
+    "@wicswap/utils": "workspace:*",
+    "@types/lodash": "^4.14.168"
+  }
+}

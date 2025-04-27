@@ -1,0 +1,36 @@
+{
+  "name": "monswap-client",
+  "publishConfig": {
+    "access": "public"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --filter=web... --concurrency=50",
+    "build": "turbo run build --filter=web...",
+    "build:packages": "turbo run build --filter=./packages/* --filter=./packages/routing-sdk/addons/*",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1",
+    "@wicswap/eslint-config": "workspace:*",
+    "@wicswap/tsconfig": "workspace:*",
+    "@wicswap/swap-sdk-core": "workspace:*",
+    "@wicswap/v3-sdk": "workspace:*",
+    "@types/node": "^18.16.2",
+    "prettier": "^3.5.2",
+    "tsx": "^4.6.1",
+    "turbo": "^2.4.4",
+    "typescript": "5.7.3",
+    "vitest": "^2.1.9"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.20.0"
+  },
+  "packageManager": "pnpm@10.5.2"
+}

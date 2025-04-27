@@ -1,0 +1,57 @@
+{
+  "name": "@wicswap/universal-router-sdk",
+  "version": "11.1.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "🛠 An SDK for building applications on top of Monswap.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MonchainDev/wicswap-sdk.git",
+    "directory": "packages/universal-router-sdk"
+  },
+  "keywords": [
+    "monswap"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "coverage": "vitest run --coverage",
+    "test": "vitest --run",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "format:check": "prettier --check --loglevel error \"{src,test}/**/*.{js,jsx,ts,tsx,json}\"",
+    "format:write": "prettier --write \"{src,test}/**/*.{js,jsx,ts,tsx,json}\"",
+    "lint": "eslint '{src,test}/**/*.{js,jsx,ts,json}'"
+  },
+  "devDependencies": {
+    "@wicswap/stable-swap-sdk": "workspace:*",
+    "@wicswap/tokens": "workspace:*",
+    "@types/node": "^15.12.2",
+    "tslib": "^2.3.0",
+    "tsup": "^6.7.0"
+  },
+  "dependencies": {
+    "@wicswap/chains": "workspace:*",
+    "@wicswap/permit2-sdk": "workspace:*",
+    "@wicswap/sdk": "workspace:*",
+    "@wicswap/smart-router": "workspace:*",
+    "@wicswap/v3-sdk": "workspace:*",
+    "abitype": "^0.9.8",
+    "tiny-invariant": "^1.1.0",
+    "viem": "^2.22.23"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@wicswap/tsconfig",
+  "version": "11.1.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/tsconfig": "0.7.0"
+  }
+}

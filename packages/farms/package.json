@@ -1,0 +1,33 @@
+{
+  "name": "@wicswap/farms",
+  "version": "11.1.2",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "npx tsx scripts/build.ts",
+    "update:snapshot": "vitest -u",
+    "test": "vitest --run"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "tsx": "^4.6.1",
+    "wrangler": "catalog:"
+  },
+  "dependencies": {
+    "@wicswap/price-api-sdk": "workspace:*",
+    "@wicswap/chains": "workspace:*",
+    "@wicswap/sdk": "workspace:*",
+    "@wicswap/stable-swap-sdk": "workspace:*",
+    "@wicswap/swap-sdk-core": "workspace:*",
+    "@wicswap/token-lists": "workspace:*",
+    "@wicswap/tokens": "workspace:*",
+    "@wicswap/utils": "workspace:*",
+    "@wicswap/v3-sdk": "workspace:*",
+    "bignumber.js": "^9.0.0",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "viem": "^2.22.23"
+  }
+}

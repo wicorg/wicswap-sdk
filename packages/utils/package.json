@@ -1,0 +1,39 @@
+{
+  "name": "@wicswap/utils",
+  "version": "12.0.2",
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@wicswap/localization": "workspace:*",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "styled-components": "^6.0.7",
+    "viem": "^2.22.23"
+  },
+  "devDependencies": {
+    "@wicswap/sdk": "workspace:*",
+    "@wicswap/swap-sdk-core": "workspace:*",
+    "@types/lodash": "^4.14.168",
+    "bignumber.js": "^9.0.0",
+    "jotai": "^2.4.3",
+    "styled-components": "6.0.7",
+    "viem": "^2.22.23"
+  },
+  "peerDependenciesMeta": {
+    "@wicswap/localization": {
+      "optional": true
+    },
+    "viem": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "quick-lru": "7.0.0",
+    "@wicswap/chains": "workspace:*",
+    "url-parse": "^1.5.10"
+  }
+}
