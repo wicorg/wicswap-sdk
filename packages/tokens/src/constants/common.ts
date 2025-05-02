@@ -379,7 +379,7 @@ export const USDT = {
   [ChainId.BSC]: USDT_BSC,
   [ChainId.BSC_TESTNET]: new ERC20Token(
     ChainId.BSC_TESTNET,
-    '0x2A4b180Da0A45A5AE65f230c228de0d4DE0B7057',
+    '0x8Be1DE32b85adb702a425faf0Eea252258e1a375',
     18,
     'USDT',
     'Tether USD',
